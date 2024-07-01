@@ -10,11 +10,3 @@
 }
 
 /* main-img */
-.main-img{
-    height: 300px;
-    width: 500px;
-    background-image: url('Code-Alpha-Portfolio-\pexels-danbuilds-633409.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: aqua;
-}
