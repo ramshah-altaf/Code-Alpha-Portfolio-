@@ -10,3 +10,17 @@
 }
 
 /* main-img */
+.main-img{
+    height: 100vmax;
+    width: 100%;
+    background-image: url('images/r%20(6).png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+/* ABOUT SECTION */
+.about > .text{
+    background-color: aqua;
+    height: inherit;
+    
+}
