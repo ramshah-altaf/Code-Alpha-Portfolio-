@@ -1,20 +1,26 @@
+
 .nav-link,.navbar-brand {
-    transition: font-size 0.7s ease-in-out;
+    transition: font-size 0.7s ease-in-out , color 0.7s ease-in-out , font-weight 0.7s ease-in-out;
+    color: pink;
 }
 
 .nav-link:hover {
-    font-size: 1.2em; 
+    font-size: 1.2em;
+    color: whitesmoke; 
+    font-weight: 600;
 }
 .navbar-brand:hover{
     font-size: 1.5em;
+    color: whitesmoke;
+    font-weight: 600;
 }
 
 /* main-img */
 .main-img{
     height: 100vmax;
     width: 100%;
-    background-image: url('images/r%20(6).png');
-    background-size: cover ;
+    background-image: url('images/backdrop8.png');
+    background-size: contain ;
     background-repeat: no-repeat;
 }
 
