@@ -44,7 +44,22 @@ body{
 
 /* SKILLS SECTION */
 .skill{
-    height: 100px;
-    
-    background-color: aqua;
+    padding: 10% 0%;
+    border-radius: 5%;
+    text-align: center;
+    align-content: center;
+    border: 2px solid pink;
+    color: pink;
+    box-shadow: 0px 10px 100px 10px rgba(3, 3, 3, 0.676);
+    font-weight: 700;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    transition : transform 0.7s ease-in-out , box-shadow 0.7s ease-in-out , background-color 0.7s ease-in-out;
+}
+.skill:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 50px 5px rgba(255, 192, 203, 0.409);
+    background-color:rgba(255, 192, 203, 0.329) ;
+}
+ul{
+    list-style-type: disc;
 }
