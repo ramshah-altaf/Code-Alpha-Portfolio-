@@ -1,9 +1,13 @@
-
+body{
+    background-color: rgb(101, 95, 98);
+}
 .nav-link,.navbar-brand {
     transition: font-size 0.7s ease-in-out , color 0.7s ease-in-out , font-weight 0.7s ease-in-out;
     color: pink;
 }
-
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='pink' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 .nav-link:hover {
     font-size: 1.2em;
     color: whitesmoke; 
@@ -20,13 +24,27 @@
     height: 100vmax;
     width: 100%;
     background-image: url('images/backdrop8.png');
-    background-size: contain ;
+    background-size: cover ;
+    background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 50px 100px 100px rgba(3, 3, 3, 0.676); 
 }
 
 /* ABOUT SECTION */
-.about > .text{
-    background-color: aqua;
-    height: inherit;
+.text{
+    color: white;
+}
+
+.img-icon{
+    max-height: 100%;
+    max-width: 100%;
+    position: sticky;
+    top: 50%;
+}
+
+/* SKILLS SECTION */
+.skill{
+    height: 100px;
     
+    background-color: aqua;
 }
