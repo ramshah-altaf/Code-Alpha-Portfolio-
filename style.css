@@ -71,9 +71,9 @@ body{
 }
 .skill-img{
     background-image: url('images/skill-img2.png');
+    margin-top: 6%;
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 100vw; 
     height: 100vh;
-    
 }
